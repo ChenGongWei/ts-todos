@@ -1,11 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
-import App from './App'
+import TabBar from './TabBar'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TabBar/>
   </React.StrictMode>,
   document.getElementById('root')
 );

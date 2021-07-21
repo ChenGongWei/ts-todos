@@ -1,0 +1,18 @@
+
+
+.App ul {
+    list-style: none;
+  }
+  
+  .App ul li {
+    color: #fff;
+    line-height: 50px;
+    margin: 7px 0;
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: pink;
+  }
+  
+  .App ul li.done {
+    background-color: green;
+  }

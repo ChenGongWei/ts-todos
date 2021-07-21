@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import classnames from 'classnames'
 import TodoForm from './TodoForm'
-import axios, { Urls } from './api/axios'
-import './App.css'
+import axios, { Urls } from '../api/axios'
+import './index.css'
 
 // type Todo = {
 //   id: number,
@@ -12,7 +12,7 @@ import './App.css'
 
 
 
-const App: React.FC = () => {
+const Todo: React.FC = () => {
 
   const [todos, setTodos] = useState<API.todos[]>([])
   
@@ -55,4 +55,4 @@ const App: React.FC = () => {
   )
 }
 
-export default App
+export default Todo
